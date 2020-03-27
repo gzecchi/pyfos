@@ -14,4 +14,5 @@ setup(
 	author_email='Automation.BSN@broadcom.com',
 	url='http://www.brocade.com/',
 	packages=find_packages(),
+	install_requires=['openpyxl', 'colorconsole', 'xlrd', 'jsondiff', 'requests', 'xmltodict'],
 )
